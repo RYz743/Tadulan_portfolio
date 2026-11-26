@@ -1,0 +1,128 @@
+
+
+/* Tablets */
+@media (max-width: 900px) {
+    .navbar {
+        display: block;
+        padding: 18px 5%;
+    }
+
+    .nav-links a {
+
+        margin-top: 1px;
+        font-size: 17px;
+    }
+
+    .nav-links {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .home-section {
+        gap: 30px;
+        padding-top: 0px;
+        padding-left: 38px;
+        padding-right: 38px;
+        padding-bottom: 200px;
+        height: 750px;
+    }
+
+    .home-image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .section {
+        padding: 60px 5%;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        min-width: 250px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    a {
+    margin-top: 0px;
+    }
+
+    .nav-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 16px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .home-section {
+        flex-direction: column;
+        gap: 25px;
+        padding: 45px 7%;
+        padding-bottom: 45;
+        padding-top: 20px;
+        padding-left: 22px;
+        padding-right: 22px;
+        text-align: center;
+    }
+
+    .home-image img {
+        width: 200px;
+        height: 200px;
+        margin-top: -100px;
+    }
+
+.home-image {
+    margin-top: 10px;
+}
+    
+
+    .home-description {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .section {
+        padding: 50px 7%;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .project-image {
+        height: auto;
+        max-height: 360px;
+    }
+
+    .social-links {
+        gap: 12px 18px;
+    }
+}

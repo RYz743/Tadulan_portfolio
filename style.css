@@ -1,0 +1,288 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F3FA;
+    color: #252238;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    margin: 10px 0;
+    color: #172554;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 0 0 10px;
+    color: #172554;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3 {
+    margin: 12px 0;
+    color: #172554;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 8px;
+}
+
+
+header {
+    background: linear-gradient(181deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 63%, rgba(116, 107, 190, 1) 91%, rgba(163, 150, 220, 1) 100%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+a {
+margin-top: 20px;
+}
+
+.ry {
+    color: #F5F3FA;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ry span {
+    color: #D9C7FF;
+}
+
+.nav-links {
+    display: flex;
+    gap: 22px;
+}
+
+.nav-links a {
+    color: #F5F3FA;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #D9C7FF;
+}
+
+
+
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    padding: 75px 8%;
+}
+
+.home-image img {
+    width: 280px;
+    height: 280px;
+    border: 5px solid #D9C7FF;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.home-description {
+    max-width: 520px;
+}
+
+.home-description p {
+    color: #F5F3FA;
+}
+
+.home-description h1 {
+    color: #FFFFFF;
+}
+
+.home-description .small-title {
+    color: #D9C7FF;
+}
+
+.small-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    border-radius: 25px;
+    background-color: #D9C7FF;
+    color: #020024;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.button:hover {
+    padding: 15px 25px;
+    background-color:#F5F3FA;
+    color: #090979;
+}
+
+
+
+.section {
+    padding: 70px 8%;
+}
+
+.section-colored {
+    background-color: #EEE9FA;
+}
+
+.section-heading {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.section-heading p {
+    color: #68647A;
+}
+
+.section-heading .small-title {
+    color: #7565A5;
+}
+
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid #E5E0EF;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(23, 37, 84, 0.15);
+}
+
+.card p,
+.card li {
+    color: #68647A;
+    font-size: 15px;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #EEE9FA;
+}
+
+
+
+.project-image {
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    background-color: #EEE9FA;
+    object-fit: contain;
+}
+
+
+.certificate-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+
+footer {
+    padding: 45px 8%;
+    background-color: #172554;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer h2 {
+    color: #FFFFFF;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.social-links a {
+    color: #D9C7FF;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #FFFFFF;
+}
+
+.copyright {
+    margin-top: 25px;
+    color: #D9C7FF;
+}
+
+
+
+.certificate-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(23, 37, 84, 0.15);
+}
